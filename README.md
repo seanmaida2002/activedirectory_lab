@@ -17,7 +17,7 @@ I created a Windows Server VM in Azure to host the Active Directory environment.
 
 This VM acts as the domain controller for the lab environment
 
-![VM info](/imgs/VM_info.jpeg)
+
 
 ## Step 2: Installing Active Directory Domain Services
 After connecting the VM, I installed the Active Directory Domain Services role using Server Manager.
