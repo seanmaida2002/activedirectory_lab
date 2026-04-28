@@ -17,10 +17,13 @@ I created a Windows Server VM in Azure to host the Active Directory environment.
 
 This VM acts as the domain controller for the lab environment
 
-
+![VM info](/imgs/VM_info.jpeg)
+![Resource Group](/imgs/resource_group.jpeg)
 
 ## Step 2: Installing Active Directory Domain Services
 After connecting the VM, I installed the Active Directory Domain Services role using Server Manager.
+
+![Server Services](/imgs/server_groups.jpeg)
 
 ## Step 3: Promoting to Domain Controller
 The server was promoted to a domain controller and a new domain was created:
@@ -33,5 +36,9 @@ To simulate a structured enviornment, I created a Branch OU and organized it int
   - Computers
   - Groups
 
+![AD Structure](/imgs/AD.jpeg)
+
 ## Step 5: Creating a User
 A test user account was created within the Users OU to simulate user management.
+
+![AD New User](/imgs/AD_user.jpeg)
